@@ -1,0 +1,35 @@
+.container{
+    margin: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    max-width: 100vw;
+    height: 80vh;
+}
+.left-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-basis: 12%;
+}
+
+.right-container{
+    display: flex;
+    flex-basis: 88%;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.right-container .response-container{
+    display: block;
+    height: 90%;
+    width: 100%;
+    background-color: rgb(243, 240, 239);
+}
+.right-container .input-container{
+    display: flex;
+    height: 10%;
+    width: 100%;
+    justify-content: center;
+}
+
